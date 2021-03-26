@@ -19,13 +19,13 @@
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #B77729; //#1abc9c;
+  --teal: #B77729; 
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #B77729; //#1abc9c;
-  --secondary: #4B384C; //#2c3e50;
+  --primary: #B77729; 
+  --secondary: #4B384C; 
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -3991,6 +3991,7 @@ input[type=button].btn-block {
 }
 .navbar-brand {
   display: inline-block;
+  max-width: 140px;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
