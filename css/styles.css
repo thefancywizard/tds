@@ -55,54 +55,28 @@ html {
 }
 
 
-
-@media (min-width: 768px) {
-  .bio {
-    text-align: left;
-    margin-top: 20px;
-  }
-  
-  .bio-image {
-    display: block;
-    max-width: 100%;
-    vertical-align: top;
-    padding: 1em;
-  }
-  
-  .bio-image img {
-    max-width: 100%;
-  }
-  
-  .bio-text {
-    display: block;
-    max-width: 100%;
-    padding: 1em;
-  }
+.bio {
+  text-align: left;
+  margin-top: 20px;
 }
 
-@media (min-width: 992px) {
-  .bio {
-    text-align: left;
-    margin-top: 20px;
-  }
-  
-  .bio-image {
-    display: inline-block;
-    max-width: 49%;
-    vertical-align: top;
-    padding: 1em;
-  }
-  
-  .bio-image img {
-    max-width: 100%;
-  }
-  
-  .bio-text {
-    display: inline-block;
-    max-width: 49%;
-    padding: 1em;
-  }
+.bio-image {
+  display: inline-block;
+  max-width: 49%;
+  vertical-align: top;
+  padding: 1em;
 }
+
+.bio-image img {
+  max-width: 100%;
+}
+
+.bio-text {
+  display: inline-block;
+  max-width: 49%;
+  padding: 1em;
+}
+
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
