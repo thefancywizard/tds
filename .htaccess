@@ -1,7 +1,6 @@
-#RewriteEngine On
-#RewriteCond %{HTTP_HOST} ^yourdomain.com [NC]
-#RewriteRule ^(.*)$ http://www.yourdomain.com/$1 [L,R=301]
-
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
 IndexIgnore *
-
 Options +MultiViews
+</IfModule>
